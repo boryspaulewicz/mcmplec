@@ -283,6 +283,9 @@ while(WINDOW$is.open()){
         WINDOW$display()
     }
 }
+TXT$set.color(c(1, 1, 1))
+WINDOW$clear(c(0, 0, 0))
+WINDOW$display()
 
 gui.show.instruction("
 Teraz nastąpi kolejny etap zadania. Obok każdego słowa zapisanego
